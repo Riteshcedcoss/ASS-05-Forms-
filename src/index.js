@@ -61,9 +61,6 @@ result="perfect";
                 }
     }
 
-    else{
-
-    }
 
     display(name,age,wt,result)
 
@@ -72,7 +69,7 @@ result="perfect";
 
 function display(name,age,wt,result){
 
-    if(output=="perfect"){
+    if(result=="perfect"){
         document.getElementById("output").innerHTML="Hello "+name+" !!! your wt. is "+result;
     }
     
